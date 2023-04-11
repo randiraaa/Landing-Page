@@ -12,3 +12,22 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* Page Home/Hero */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+
+
+/* End Page Home/Hero */
