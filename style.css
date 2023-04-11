@@ -11,6 +11,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+    color: #1E293B;
 }
 
 /* Page Home/Hero */
@@ -25,13 +26,25 @@ header {
 #logo {
     width: 40px;
     min-height: 40px;
+    cursor: pointer;
 }
 
 nav ul {
     display: flex;
     list-style: none;
     gap: 30px;
+    font-weight: bold;
 }
+
+nav ul li:hover {
+    color: #0E9488;
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    border-bottom: 2px solid #0E9488;
+    cursor: pointer;
+    
+}
+
 /* End Page Home/Hero */
 
 /* Hero Section */
@@ -40,15 +53,16 @@ nav ul {
     padding: 10% 0;
 }
 
-#box-p {
-    border: 1px solid black;
-}
-
 .box-button {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
+#box-p {
+    border: 1px solid black;
+    padding: 5px;
+}
 
 /* End Hero Section */
