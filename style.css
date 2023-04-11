@@ -22,12 +22,33 @@ header {
     padding: 20px;
 }
 
+#logo {
+    width: 40px;
+    min-height: 40px;
+}
+
 nav ul {
     display: flex;
     list-style: none;
     gap: 30px;
 }
-
-
-
 /* End Page Home/Hero */
+
+/* Hero Section */
+#section-hero {
+    text-align: center;
+    padding: 10% 0;
+}
+
+#box-p {
+    border: 1px solid black;
+}
+
+.box-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* End Hero Section */
