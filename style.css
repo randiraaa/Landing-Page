@@ -105,3 +105,48 @@ nav ul li:hover {
     cursor: pointer;
 }
 /* End Hero Section */
+
+/* Page Layanan */
+.layanan {
+    word-spacing: 5px;
+}
+
+.layanan h2 {
+    text-align: center;
+    color: #0E9488;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.layanan #p3 {
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 100px;
+}
+
+.kotak-layanan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin: 55px 15px;
+}
+
+.kotak-layanan img {
+    border-radius: 100%;
+    width: 260px;
+}
+
+.kotak-layanan h3 {
+    color: #0E9488;
+    font-size: 28px;
+    margin: 10px;
+}
+
+.kotak-layanan p {
+    font-size: large;
+    margin: 10px;
+}
+
+/* End Page Layanan */
