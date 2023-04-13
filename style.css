@@ -178,7 +178,6 @@ nav ul li:hover {
     color: #1E293B;
     font-size: x-large;
     padding: 15px 300px;
-    border-bottom: 2px solid #0E9488;
     margin-bottom: 25px;
 }
 
@@ -289,3 +288,31 @@ nav ul li:hover {
 }
 
 /* End Page Form */
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background-color: #1E293B;
+    color: aliceblue;
+    margin-top: 35px;
+}
+
+#f-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+#f-menu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+span {
+    color: #0E9488;
+    font-weight: 800;
+}
+
+/* End Footer */
