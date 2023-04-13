@@ -12,6 +12,8 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     color: #1E293B;
+    letter-spacing: 2px;
+    background-color: #FCFCFF;
 }
 
 /* Page Home/Hero */
@@ -20,7 +22,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    padding: 5px;
+    padding: 10px;
 }
 
 #logo {
@@ -36,20 +38,28 @@ nav ul {
     font-size: medium;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #0E9488;
+    padding: 10px 12px;
+    border-radius: 4px;
+    text-align: center;
+}
+
 nav ul li:hover {
     color: #0E9488;
     -webkit-transform: scale(1.08);
     transform: scale(1.08);
-    border-bottom: 2px solid #0E9488;
     cursor: pointer;
-    
 }
 /* End Page Home/Hero */
 
 /* Hero Section */
 #section-hero {
+    background-image: url("image/background-hero.png");
     text-align: center;
-    padding: 140px;
+    padding: 100px 140px 140px 140px;
     word-spacing: 5px;
 }
 
@@ -107,18 +117,15 @@ nav ul li:hover {
 /* End Hero Section */
 
 /* Page Layanan */
-.layanan {
-    word-spacing: 5px;
-}
-
-.layanan h2 {
+.judul-page h2 {
     text-align: center;
     color: #0E9488;
     font-size: 40px;
     margin: 10px;
+    padding-top: 25px;
 }
 
-.layanan #p3 {
+.judul-page #p3 {
     text-align: center;
     font-size: larger;
     margin-bottom: 100px;
@@ -134,8 +141,9 @@ nav ul li:hover {
 }
 
 .kotak-layanan img {
-    border-radius: 100%;
     width: 260px;
+    border: 2px solid #1E293B;
+    border-radius: 4px;
 }
 
 .kotak-layanan h3 {
@@ -147,6 +155,137 @@ nav ul li:hover {
 .kotak-layanan p {
     font-size: large;
     margin: 10px;
+    letter-spacing: 0;
+}
+/* End Page Layanan */
+
+/* Page Tentang */
+.judul-page #p4 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 15px;
 }
 
-/* End Page Layanan */
+#image-tentang img {
+    width: 100%;
+    height: 300px;
+    border: 2px solid #0E9488;
+    border-radius: 12px;
+}
+
+#d-p1 p {
+    text-align: center;
+    color: #1E293B;
+    font-size: x-large;
+    padding: 15px 300px;
+    border-bottom: 2px solid #0E9488;
+    margin-bottom: 25px;
+}
+
+.sub-judul {
+    margin: 15px 25px;
+}
+
+.sub-judul h3 {
+    color: #0E9488;
+    font-size: xx-large;
+}
+
+.sub-judul h5 {
+    font-size: large;
+    padding: 10px 0;
+}
+
+.sub-judul p {
+    font-size: 18px;
+    letter-spacing: 0;
+    text-align: justify;
+}
+
+#gif-tentang img {
+    border-top: 2px solid #0E9488;
+    border-bottom: 2px solid #0E9488;
+    width: 430px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+/* End Page Tentang */
+
+/* Page Form */
+.judul-page #p5 {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.register {
+    background-color: #0E9488;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.register label {
+    font-size: 20px;
+}
+
+.register input {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: none;
+}
+
+.register #check {
+    font-size: medium;
+    display: block;
+}
+
+.register #status {
+    align-items: center;
+    margin-right: 20px;
+    width: 20px;
+}
+
+.register #submit-form {
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    padding: 10px 15px;
+    color: aliceblue;
+    background-color: #1E293B;
+    border: none;
+    border-radius: 4px;
+    word-spacing: 5px;
+    font-size: large;
+}
+
+.register #submit-form:hover {
+    color: aliceblue;
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+#form-s {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#greet-gif {
+    width: 300px;
+    height: 500px;
+    margin-right: 100px;
+}
+
+/* End Page Form */
