@@ -9,8 +9,6 @@
     </head>
     <body>
 
-        <!-- <div class="bg-hero"><img src="#" alt="background"></div> -->
-
         <!-- Header & Navbar -->
         <header>
             <div>
@@ -19,9 +17,9 @@
             <nav>
                 <div>
                     <ul>
-                        <li><a href="#layanan"></a>Layanan</li>
-                        <li><a href="#tentang"></a>Tentang</li>
-                        <li><a href="#tracking"></a>Tracking</li>
+                        <li><a href="#page-2">Layanan</a></li>
+                        <li><a href="#page-3">Tentang</a></li>
+                        <li><a href="#join">Tracking</a></li>
                     </ul>
                 </div>
             </nav>
@@ -40,46 +38,46 @@
                         <a href="https://skilvul.com" target="_blank" id="link"><p id="p2">Anda dapat memulai disini!</p></a>
                     </div>
                     <div id="button-hero">
-                        <a href="#"><button>Get Started</button></a>
+                        <a href="#join"><button>Get Started</button></a>
                     </div>
                 </div>
             </section>
             <!-- End Hero Section -->
 
-            <!-- Section Promosi -->
+            <!-- Section Layanan -->
             <section id="section-layanan">
                 <div class="judul-page">
-                    <h2>Layanan Kami</h2>
+                    <h2 id="page-2">Layanan Kami</h2>
                     <p id="p3">Program solusi sehat untuk anda.</p>
                 </div>
                     <div class="kotak-layanan">
                         <div id="layanan1">
-                            <img src="image/cobalayanan.png" alt="image-layanan1">
+                            <img src="image/tracking.png" alt="image-layanan1">
                             <h3>Tracking calori</h3>
                             <p>Mengukur jumlah kalori & membantu mencapai program diet sehat.</p>
                         </div>
                         <div id="layanan2">
-                            <img src="image/cobalayanan.png" alt="image-layanan2">
+                            <img src="image/foodr.png" alt="image-layanan2">
                             <h3>Food Recomendation</h3>
                             <p>Rekomendasi makanan yang sehat dan bergiji untuk keseimbangan nutrisi</p>
                         </div>
                         <div id="layanan3">
-                            <img src="image/cobalayanan.png" alt="image-layanan3">
+                            <img src="image/carbons.png" alt="image-layanan3">
                             <h3>Carbon Offset</h3>
                             <p>Fitur menghitung & mengkompensasi emisi mengurangi dampak karbon.</p>
                         </div>
                     </div>
             </section>
-            <!-- End Section Promosi -->
+            <!-- End Section Layanan -->
 
             <!-- Page Tentang -->
             <section id="section-tentang">
                 <div class="judul-page">
-                    <h2>Tentang Kami</h2>
-                    <p id="p4">Baries Community</p>
+                    <h2 id="page-3">Tentang Kami</h2>
+                    <p id="p4">"Baries Community"</p>
                 </div>
                 <div id="image-tentang">
-                    <img src="image/banner.jpg" alt="banner">
+                    <img src="image/banner.png" alt="banner">
                 </div>
                 <div id="d-p1">
                     <p>"Baries membangun masa depan lebih sehat dan memberi solusi untuk anda dalam merencanakan pola hidup sehat dan membantu merencanakan program diet yang tepat."</p>
@@ -90,10 +88,46 @@
                     <p>Kami adalah platform yang berfokus pada mempromosikan gaya hidup sehat dan bertanggung jawab lingkungan. Dengan teknologi modern, kami berusaha untuk memberikan solusi terbaik bagi pengguna kami untuk mengatur pola makan dan gaya hidup mereka.<br><br>Melalui fitur pelacakan diet, kami membantu pengguna untuk memantau asupan nutrisi mereka, memperoleh wawasan tentang kebiasaan makan mereka, dan menetapkan tujuan kesehatan yang realistis. Kami juga menawarkan rekomendasi makanan yang sehat dan bergizi untuk membantu pengguna dalam memilih makanan yang tepat untuk diet mereka.<br><br>Selain itu, kami juga peduli terhadap lingkungan dan berkomitmen untuk membantu pengguna kami mengurangi dampak karbon mereka. Melalui fitur pengimbangan karbon, kami memungkinkan pengguna untuk menghitung dan mengkompensasi emisi karbon yang dihasilkan oleh kegiatan sehari-hari mereka. Kami bekerja sama dengan proyek pengurangan emisi karbon yang terverifikasi dan terpercaya untuk memberikan opsi kompensasi yang sesuai dengan kebutuhan pengguna.</p>
                 </div>
                 <div id="gif-tentang">
-                    <video src=""></video>
+                    <img src="/image/tentang.png"></img>
                 </div>
             </section>
             <!-- End Page Tentang -->
+
+            <!-- Page Redirect Form -->
+            <div class="judul-page">
+                <h2 id="join">Hidup Sehat Bersama Kami!</h2>
+                <p id="p5">Let's join to start a healthy life!</p>
+            </div>
+
+            <section id="form-s">
+
+                <form class="register">
+                    <label for="name">Name :</label><br>
+                    <input type="text" id="name" name="city"><br>
+
+                    <label for="name">City :</label><br>
+                    <input type="text" id="city" name="city"><br>
+
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email" name="email"><br>
+
+                    <label for="zip-code">Zip Code :</label><br>
+                    <input type="number" id="zip-code" name="zip-code"><br>
+
+                    <label for="check" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai.</label>
+                    <input type="checkbox" id="status" name="status">
+
+                    <button type="submit" id="submit-form">Register</button>
+
+                    <div id="warning"></div>
+                </form>
+
+                <div>
+                    <img src="image/greet.gif" alt="gif-form" id="greet-gif" autoplay></img>
+                </div>
+            </section>
+
+            <!-- Page Redirect Form -->
             
         </main>       
         <script src="script.js"></script>
