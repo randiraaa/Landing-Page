@@ -63,4 +63,14 @@ const submitForm = document.getElementById("submit-form");
 submitForm.addEventListener("click", submit);
 ```
 ## Results
-![Landing-Page]("")
+<img src="image/hero.png"  width="500" height="300"><br>
+<img src="image/page-2.png"  width="500" height="280"><br>
+<img src="image/page-3.png"  width="500" height="280"><br>
+<img src="image/page-4.png"  width="500" height="280"><br>
+<img src="image/page-5.png"  width="500" height="280">
+
+### Link GitHub:  
+Click to access all files in [GitHub](https://github.com/randiraaa/Landing-Page)
+
+### link Netlify:
+Click Landing Page [Baries](https://baries.netlify.app/)
